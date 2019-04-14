@@ -5,8 +5,5 @@ def my_collect(array)
     i = i + 1
   end
   array
-else
-  my_collect(array) do |name|
-  name.split(" ").first
   end
 end
