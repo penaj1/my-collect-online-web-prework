@@ -7,7 +7,6 @@ def my_collect(array)
   array
 end
 
-def
 my_collect(array) do |students|
   students.split(" ").first
 end
