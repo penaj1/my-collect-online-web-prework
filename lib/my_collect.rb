@@ -5,8 +5,8 @@ def my_collect(array)
     i = i + 1
   end
   array
-end
-
-my_collect(array) do |students|
+else
+  my_collect(array) do |students|
   students.split(" ").first
+  end
 end
