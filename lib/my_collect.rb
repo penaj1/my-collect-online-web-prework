@@ -5,12 +5,7 @@ def my_collect(array)
     i = i + 1
   end
   array
-else
+end
   my_collect(array) do |name|
   name.split(" ").first
-else
-  my_collect(collection) do |lang|
-  lang.upcase
-end
-
 end
