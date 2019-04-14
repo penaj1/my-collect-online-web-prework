@@ -7,3 +7,5 @@ def my_collect(array)
   end
   new_collection
 end
+
+puts names.kollect{ |name| name.upcase }.inspect
