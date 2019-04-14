@@ -7,10 +7,7 @@ def my_collect(array)
     yield(array[i])
     i = i + 1
   end
-  array
-end
-
-my_collect(array) do |name|
+  my_collect(array) do |name|
   name.split(" ").first
 end
 
@@ -23,9 +20,6 @@ def my_collect(collection)
     yield(collection[i])
     i = i + 1
   end
-  array
-end
-
-my_collect(collection) do |lang|
+  my_collect(collection) do |lang|
   lang.upcase
 end
