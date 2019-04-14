@@ -8,6 +8,6 @@ def my_collect(array)
 end
 
 def
-my_collect(array) do |name|
-  name.split(" ").first
+my_collect(array) do |students|
+  students.split(" ").first
 end
