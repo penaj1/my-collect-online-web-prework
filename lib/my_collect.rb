@@ -10,3 +10,5 @@ def my_collect(array)
   end
   array
 end
+
+my_collect(languages) {|language| puts language.upcase}
