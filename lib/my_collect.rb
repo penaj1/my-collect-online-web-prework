@@ -15,7 +15,7 @@ collection = ['ruby', 'javascript', 'python', 'objective-c']
 
 def my_collect(collection)
   i = 0
- 
+  collection = []
   while i < collection.length
     yield(collection[i])
     i = i + 1
