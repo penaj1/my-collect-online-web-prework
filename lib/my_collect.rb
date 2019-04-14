@@ -6,7 +6,7 @@ def my_collect(array)
   end
   array
 else
-  my_collect(array) do |students|
-  students.split(" ").first
+  my_collect(array) do |name|
+  name.split(" ").first
   end
 end
