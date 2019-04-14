@@ -7,8 +7,7 @@ def my_collect(array)
     yield(array[i])
     i = i + 1
   end
-  my_collect(array) do |name|
-  name.split(" ").first
+  array
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
@@ -20,6 +19,5 @@ def my_collect(collection)
     yield(collection[i])
     i = i + 1
   end
-  my_collect(collection) do |lang|
-  lang.upcase
+  collection
 end
